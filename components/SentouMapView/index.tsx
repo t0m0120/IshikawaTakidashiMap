@@ -8,12 +8,13 @@ import {
   Marker,
   InfoWindow,
 } from "@vis.gl/react-google-maps";
+import Linkify from "linkify-react";
+
 import { MarkerClusterer } from "@googlemaps/markerclusterer";
+
 import sentou from "./sentou";
 
 export const SentouMapView = () => {
-  const [selectedMarker, setSelectedMarker] = useState(null);
-
   return (
     <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
       <Map
@@ -37,7 +38,7 @@ const Markers = ({ points }: Props) => {
   const map = useMap();
   const [markers, setMarkers] = useState<{ [key: string]: Marker }>({});
   const clusterer = useRef<MarkerClusterer | null>(null);
-  const [infowindowOpen, setInfowindowOpen] = useState(false);
+  const [infowindowOpen, setInfowindowOpen] = useState(null);
 
   // Initialize MarkerClusterer
   useEffect(() => {
@@ -70,24 +71,26 @@ const Markers = ({ points }: Props) => {
 
   return (
     <>
-      {points.map((point) => (
+      {points.map((point,i) => (
         <>
           <Marker
             position={point}
             key={point.key}
-            onClick={() => setInfowindowOpen(true)}
+            onClick={() => setInfowindowOpen(i)}
             ref={(marker) => setMarkerRef(marker, point.key)}
           ></Marker>
 
-          {infowindowOpen && (
+          {infowindowOpen === i && (
             <InfoWindow
               position={{ lat: point.lat, lng: point.lng }}
-              maxWidth={200}
-              onCloseClick={() => setInfowindowOpen(false)}
+              onCloseClick={() => setInfowindowOpen(null)}
             >
               <div style={{ color: "#333" }}>
                 <h4>{point.name}</h4>
-                <p>{point.text}</p>
+
+                <Linkify>
+                  <p>{point.text}</p>
+                </Linkify>
               </div>
             </InfoWindow>
           )}
