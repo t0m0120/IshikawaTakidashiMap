@@ -16,7 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <h1>石川炊き出しマップ</h1>
+        <p>このページは、SNSなどをもとに、営業中の施設などをMapで確認できるWebサイトです。</p>
+        <p>公式SNSなどの情報を元に管理人が更新していますが、各種公式サイトなどを確認してから行動してください。</p>
+        <p>不具合などがあれば、管理人に<a href="https://twitter.com/t0m0120">こちらから</a>連絡ください。</p>
+        {children}</body>
     </html>
   )
 }
