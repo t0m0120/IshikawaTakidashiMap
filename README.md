@@ -6,3 +6,14 @@
 とりあえずChatGPTと一緒にゴリゴリ骨組みだけ書いた状態なので、今後情報の追加と更新をしていく予定です。
 
 もし何かあればIssueまたは[X(Twitter)](https://twitter.com/t0m0120)へご連絡ください。
+
+
+## 開発方法について
+
+git clone 
+↓
+GoogleMapのAPIKey MapIDを打ち込むと動くと思います。
+```.env.local 
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=""
+NEXT_PUBLIC_MAP_ID=""
+```
