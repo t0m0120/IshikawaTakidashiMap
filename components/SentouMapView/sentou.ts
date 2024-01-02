@@ -11,7 +11,16 @@ type Tree = {
 };
 
 const sentou: RawSentou[] = [
-  ['テルメ金沢', '10:00-11:00', 36.56982377268884, 136.60130156561607],
+  ['テルメ金沢', 'https://twitter.com/terume_kanazawa', 36.56982377268884, 136.60130156561607],
+  ['松の湯', `1/3 ~ 1/5 13:00 - 19:00 \n https://www.instagram.com/matsu_sento`, 36.565212872319854, 136.6517657251374],
+  ['pocapoca御経塚の湯', ' \n https://www.instagram.com/pocapocasento/',36.548895672080775, 136.6010080153412],
+  ['ユーフォリア千里浜', '1/3無料開放されます。 \n https://www.instagram.com/euphoria_chirihama/',36.88962832985281, 136.7677724386353],
+  ['和音の湯', '1/3 12:00 ~ 予定 \n https://www.facebook.com/waonnoyu',36.58975862678718, 136.66898781534118],
+  ['金城温泉元湯','通常営業 \n https://twitter.com/kinjo_onsen',36.58037824133834, 136.5972617522164],
+  ['ゴールドジムヴィテン野々市','1/2,3 無料開放 12:00 - 18:00 \n https://instagram.com/v10nonoichi', 36.53510282534515, 136.6168239767059],
+  ['加賀ゆめのゆ','', 36.32431744822491, 136.4105824767059],
+  ['満天の湯 白山インター店', 'https://page.line.me/797xsdvz',36.52590425512876, 136.58114643068234],
+  ['ピュア涌泉寺温泉','10:00〜20:00（最終受付19:00まで）\nhttps://www.instagram.com/pyuayuusenzi21127/',36.392430908715276, 136.52479516931766]
 ];
 
 const formatted: Tree[] = sentou.map(([name, text, lat, lng]) => ({

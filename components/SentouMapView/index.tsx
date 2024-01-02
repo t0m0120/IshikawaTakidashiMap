@@ -89,7 +89,7 @@ const Markers = ({ points }: Props) => {
                 <h4>{point.name}</h4>
 
                 <Linkify>
-                  <p>{point.text}</p>
+                  <p style={{whiteSpace: 'pre-wrap'}}>{point.text}</p>
                 </Linkify>
               </div>
             </InfoWindow>
