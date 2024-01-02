@@ -26,6 +26,7 @@ const sentou: RawSentou[] = [
   ['勝崎の湯', 'https://katsuzakikan.com/public_bath/', 36.67357581891642, 136.7305061153412],
   ['極楽湯 野々市店', 'https://www.gokurakuyu.ne.jp/tempo/nonoichi/', 36.53489193554797, 136.61250393068232],
   ['しあわせの湯', '1/3より通常営業\nhttps://www.instagram.com/shiawasenoyu/', 36.53489193554797, 136.61250393068232],
+  ['楽ちんの湯', 'http://www.rakuchinnoyu.com/',36.53701401871254, 136.67512823068233 ]
 ];
 
 const formatted: Tree[] = sentou.map(([name, text, lat, lng]) => ({
