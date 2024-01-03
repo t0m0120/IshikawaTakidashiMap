@@ -35,9 +35,16 @@ const sentou: RawSentou[] = [
   ['大和温泉', '1/3 14:00 - 23:00 \n水提供有り/容器持参\nhttps://twitter.com/sentoishikawa/status/1742418848467583396',36.57653069203912, 136.66488972883488],
   ['湯来楽 内灘店', '1/4 10:00 ~ \n営業再開\nhttps://yurara-uchinada.jp/news/1388/',36.63815957160948, 136.62351714110417],
   ['祥楽の湯 津幡店', '1/4 10:00 ~ \n1/3 12:00~21:00 1/4 10:00~23:00\nhttps://ynx-grp.jp/shoraku/tsubata/',36.65985179005068, 136.7269794131972],
+  ['浅の川温泉湯楽', '1/4~ 通常営業\nhttps://www.yuraku-onsen.jp/',36.65985179005068, 136.7269794131972],
 ];
 
-const formatted: Tree[] = sentou.map(([name, text, lat, lng]) => ({
+const toyama: RawSentou[] = [
+  ['ファミリー銭湯くさじま', '1/4 通常営業\nhttps://www.instagram.com/fami_sen_kusajima',36.74643101737014, 137.21100053799086],
+  ['越乃庭', '1/4~ 朝風呂 5:30-8:00 10:00 - 19:00\nhttps://twitter.com/koshinoniwa',36.80677250627114, 137.05081696407305],
+]
+const mergedArray: RawSentou[] = [...sentou, ...toyama];
+
+const formatted: Tree[] = mergedArray.map(([name, text, lat, lng]) => ({
   name,
   text,
   lat,
