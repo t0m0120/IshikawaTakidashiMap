@@ -21,6 +21,8 @@ const water_supply: RawSentou[] = [
   ['余喜公民館 ', '1月3日の午前7時から午後8時\nペットボトル1人1リットル配布 給水袋配布\nhttps://www.city.hakui.lg.jp/important/14566.html',36.931280581447446, 136.84581877301446],
   ['アクアパーク シ・オン', 'https://www.town.shika.lg.jp/jouhou/R6zishin/kyusuizyo-2_2.html',37.00759567491278, 136.7799815896793],
   ['富来活性化センター', 'https://www.town.shika.lg.jp/jouhou/R6zishin/kyusuizyo-2_2.html',37.14441072153195, 136.72524866279167],
+  ['アステラス', 'ポリタンクやペットボトルなどの給水ができるものをご持参ください。\nhttps://www.hodatsushimizu.jp/kinkyu/6196.html',36.81637120012523, 136.76403974598392],
+  ['宝達志水病院', 'ポリタンクやペットボトルなどの給水ができるものをご持参ください。\nhttps://www.hodatsushimizu.jp/kinkyu/6196.html',36.86688794795771, 136.7948291649326],
 ]; 
 
 const formatted: Tree[] = water_supply.map(([name, text, lat, lng]) => ({
