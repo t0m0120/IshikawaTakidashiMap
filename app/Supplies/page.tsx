@@ -9,7 +9,7 @@ export default function Home() {
       <h2>
         支援物資拠点
       </h2>
-      <p>1/3時点 14時点での情報です。</p>
+      <p>1/3時点 20時点での情報です。</p>
       <p>ピンをタップした際に、表示される公式サイトのリンクなどで最新情報を確認してから行動してください。</p>
       <SentouMapView data={supply} />
     </main>
