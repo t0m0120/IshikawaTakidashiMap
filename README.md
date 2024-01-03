@@ -13,6 +13,7 @@
 git clone 
 ↓
 GoogleMapのAPIKey MapIDを打ち込むと動くと思います。
+
 ```.env.local 
 NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=""
 NEXT_PUBLIC_MAP_ID=""

@@ -12,9 +12,8 @@ import Linkify from "linkify-react";
 
 import { MarkerClusterer } from "@googlemaps/markerclusterer";
 
-import sentou from "./sentou";
 
-export const SentouMapView = () => {
+export const SentouMapView = ({data}) => {
   return (
     <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
       <Map
@@ -25,7 +24,7 @@ export const SentouMapView = () => {
         disableDefaultUI={false}
         style={{ width: "100%", height: "100vh" }}
       >
-        <Markers points={sentou} />
+        <Markers points={data} />
       </Map>
     </APIProvider>
   );

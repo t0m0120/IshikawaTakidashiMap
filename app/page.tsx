@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Link href="/Sentou">銭湯マップ</Link>
+      <Link href="/Water">給水マップ</Link>
     </main>
   )
 }
