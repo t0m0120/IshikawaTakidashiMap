@@ -23,6 +23,11 @@ const water_supply: RawSentou[] = [
   ['富来活性化センター', 'https://www.town.shika.lg.jp/jouhou/R6zishin/kyusuizyo-2_2.html',37.14441072153195, 136.72524866279167],
   ['アステラス', 'ポリタンクやペットボトルなどの給水ができるものをご持参ください。\nhttps://www.hodatsushimizu.jp/kinkyu/6196.html',36.81637120012523, 136.76403974598392],
   ['宝達志水病院', 'ポリタンクやペットボトルなどの給水ができるものをご持参ください。\nhttps://www.hodatsushimizu.jp/kinkyu/6196.html',36.86688794795771, 136.7948291649326],
+  ['かほく市役所正面玄関駐車場', '7時から19時まで\nhttps://www.city.kahoku.lg.jp/001/162/d010942.html',36.71955900618487, 136.7068073588779],
+  ['七塚健康福祉センター', '7時から19時まで\nhttps://www.city.kahoku.lg.jp/001/162/d010942.html',36.734734177578154, 136.70073236083098],
+  ['高松小学校', '7時から19時まで\nhttps://www.city.kahoku.lg.jp/001/162/d010942.html',36.768913689705656, 136.7193933883574],
+  ['七塚小学校', '7時から19時まで\nhttps://www.city.kahoku.lg.jp/001/162/d010942.html',36.74820611359258, 136.7015716377858],
+  ['外日角小学校体育館側', '8時から20時まで\nhttps://www.city.kahoku.lg.jp/001/162/d010942.html',36.72365322293017, 136.6917557676373],
 ]; 
 
 const formatted: Tree[] = water_supply.map(([name, text, lat, lng]) => ({
