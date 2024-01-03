@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "石川炊き出しMap",
-  description: "令和6年能登半島地震対策の地図です。",
+  description: "令和6年能登半島地震対策として立ち上げ地図です。給水所や銭湯などの情報を地図上で一気に確認できます。",
 };
 
 export default function RootLayout({
