@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h3 style={{ margin: "10px", textAlign: "left" }}>
-        営業している銭湯マップ
+        給水情報マップ
       </h3>
       <SentouMapView data={water_supply} />
     </main>

@@ -1,11 +1,16 @@
-import Link from '@/node_modules/next/link'
-import styles from './page.module.css'
+import Link from "@/node_modules/next/link";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <Link href="/Sentou">銭湯マップ</Link>
-      <Link href="/Water">給水マップ</Link>
+    <main>
+      <ul style={{ margin: 30 }}>
+        <li>
+          <Link href="/Water">給水マップ</Link>
+        </li>
+        <li>
+          <Link href="/Sentou">銭湯マップ</Link>
+        </li>
+      </ul>
     </main>
-  )
+  );
 }

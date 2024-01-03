@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} style={{padding: 20}}>
         <h1>石川炊き出しマップ</h1>
         <p>このページは、SNSなどをもとに、営業中の施設などをMapで確認できるWebサイトです。</p>
         <p>公式SNSなどの情報を元に管理人が更新していますが、各種公式サイトなどを確認してから行動してください。</p>
