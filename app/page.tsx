@@ -8,6 +8,9 @@ export default function Home() {
           <Link href="/Water">給水マップ</Link>
         </li>
         <li>
+          <Link href="/Supplies">支援物資拠点</Link>
+        </li>
+        <li>
           <Link href="/Sentou">銭湯マップ</Link>
         </li>
       </ul>
