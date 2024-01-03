@@ -12,21 +12,22 @@ import Linkify from "linkify-react";
 
 import { MarkerClusterer } from "@googlemaps/markerclusterer";
 
-
-export const SentouMapView = ({data}) => {
+export const SentouMapView = ({ data }) => {
   return (
-    <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
-      <Map
-        zoom={9}
-        mapId={process.env.NEXT_PUBLIC_MAP_ID}
-        center={{ lat: 36.8, lng: 136.70425100483305 }}
-        gestureHandling={"greedy"}
-        disableDefaultUI={false}
-        style={{ width: "100%", height: "100vh" }}
-      >
-        <Markers points={data} />
-      </Map>
-    </APIProvider>
+    <div style={{ margin: 10 }}>
+      <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
+        <Map
+          zoom={9}
+          mapId={process.env.NEXT_PUBLIC_MAP_ID}
+          center={{ lat: 36.8, lng: 136.70425100483305 }}
+          gestureHandling={"greedy"}
+          disableDefaultUI={false}
+          style={{ width: "100%", height: "100vh" }}
+        >
+          <Markers points={data} />
+        </Map>
+      </APIProvider>
+    </div>
   );
 };
 
@@ -70,7 +71,7 @@ const Markers = ({ points }: Props) => {
 
   return (
     <>
-      {points.map((point,i) => (
+      {points.map((point, i) => (
         <>
           <Marker
             position={point}
@@ -88,7 +89,7 @@ const Markers = ({ points }: Props) => {
                 <h4>{point.name}</h4>
 
                 <Linkify>
-                  <p style={{whiteSpace: 'pre-wrap'}}>{point.text}</p>
+                  <p style={{ whiteSpace: "pre-wrap" }}>{point.text}</p>
                 </Linkify>
               </div>
             </InfoWindow>
