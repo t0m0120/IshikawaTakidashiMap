@@ -30,8 +30,13 @@ const water_supply: RawSentou[] = [
   ['外日角小学校体育館側', '8時から20時まで\nhttps://www.city.kahoku.lg.jp/001/162/d010942.html',36.72365322293017, 136.6917557676373],
   ['津幡町文化会館シグナス', '午前10時00分から午後5時00分\nhttps://www.town.tsubata.lg.jp/emergency_information/W012H0000181.html',36.663460642095444, 136.72731778844994],
   ['津幡運動公園駐車場', '午前10時00分から午後5時00分\nhttps://www.town.tsubata.lg.jp/emergency_information/W012H0000181.html',36.66519728497139, 136.7620299999969],
-  [' 近懇館（緑が丘）', '午後2時00分から午後5時00分\nhttps://www.town.tsubata.lg.jp/emergency_information/W012H0000181.html',36.680160943462795, 136.74889605141394],
-  [' 津幡町役場レコ裏（サイト確認必須）', '午前8時00分から午後8時00分\nhttps://www.town.tsubata.lg.jp/emergency_information/W012H0000181.html',36.6689763598988, 136.72908106852645],
+  ['近懇館（緑が丘）', '午後2時00分から午後5時00分\nhttps://www.town.tsubata.lg.jp/emergency_information/W012H0000181.html',36.680160943462795, 136.74889605141394],
+  ['津幡町役場レコ裏（サイト確認必須）', '午前8時00分から午後8時00分\nhttps://www.town.tsubata.lg.jp/emergency_information/W012H0000181.html',36.6689763598988, 136.72908106852645],
+  ['内灘文化会館 正面玄関', '24時間開設\nhttps://www.town.uchinada.lg.jp/soshiki/soumu/15134.html',36.650868877161926, 136.6437295288237],
+  ['清湖小学校 グラウンド', '24時間開設\nhttps://www.town.uchinada.lg.jp/soshiki/soumu/15134.html', 36.64098368256126, 136.6339917000024],
+  ['内灘中学校 正面玄関', '1/3 午前7時から午後8時 給水車\nhttps://www.town.uchinada.lg.jp/soshiki/soumu/15134.html', 36.64557857538397, 136.6441918067455],
+  ['白帆台小学校 体育館前', '1/3 午前7時から午後8時 給水車\nhttps://www.town.uchinada.lg.jp/soshiki/soumu/15134.html', 36.674026914477075, 136.65726855139073],
+  ['西荒屋公民館', '1/3 午後3時~無くなるまで 給水車\nhttps://www.town.uchinada.lg.jp/soshiki/soumu/15134.html', 36.684683784672735, 136.6725578883636],
 ]; 
 
 const formatted: Tree[] = water_supply.map(([name, text, lat, lng]) => ({
