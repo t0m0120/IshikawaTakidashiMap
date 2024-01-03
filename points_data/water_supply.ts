@@ -28,6 +28,10 @@ const water_supply: RawSentou[] = [
   ['高松小学校', '7時から19時まで\nhttps://www.city.kahoku.lg.jp/001/162/d010942.html',36.768913689705656, 136.7193933883574],
   ['七塚小学校', '7時から19時まで\nhttps://www.city.kahoku.lg.jp/001/162/d010942.html',36.74820611359258, 136.7015716377858],
   ['外日角小学校体育館側', '8時から20時まで\nhttps://www.city.kahoku.lg.jp/001/162/d010942.html',36.72365322293017, 136.6917557676373],
+  ['津幡町文化会館シグナス', '午前10時00分から午後5時00分\nhttps://www.town.tsubata.lg.jp/emergency_information/W012H0000181.html',36.663460642095444, 136.72731778844994],
+  ['津幡運動公園駐車場', '午前10時00分から午後5時00分\nhttps://www.town.tsubata.lg.jp/emergency_information/W012H0000181.html',36.66519728497139, 136.7620299999969],
+  [' 近懇館（緑が丘）', '午後2時00分から午後5時00分\nhttps://www.town.tsubata.lg.jp/emergency_information/W012H0000181.html',36.680160943462795, 136.74889605141394],
+  [' 津幡町役場レコ裏（サイト確認必須）', '午前8時00分から午後8時00分\nhttps://www.town.tsubata.lg.jp/emergency_information/W012H0000181.html',36.6689763598988, 136.72908106852645],
 ]; 
 
 const formatted: Tree[] = water_supply.map(([name, text, lat, lng]) => ({
