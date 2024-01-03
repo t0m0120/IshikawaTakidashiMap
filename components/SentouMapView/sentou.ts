@@ -29,6 +29,9 @@ const sentou: RawSentou[] = [
   ['楽ちんの湯', 'http://www.rakuchinnoyu.com/',36.53701401871254, 136.67512823068233 ],
   ['ゆめのゆ', '1/3より一部営業再開\nhttps://yumenoyu.net/kanazawa/news/news/3901',36.58344715780954, 136.62031614602353 ],
   ['れもん湯', '1/3 9:00 - 23:00 営業再開 給水可\nhttps://twitter.com/le_mo_nn_1986',36.5383696513043, 136.63992447616488],
+  ['古墳の湯', '1/3 無料開放 10:00 - 21:00 \nhttps://www.hodatsushimizu.jp/kinkyu/5449.html',36.856050058616276, 136.81596775559456],
+  ['里湯ちりはま', '1/3 無料開放 10:00 - 21:00 \nhttps://www.hodatsushimizu.jp/kinkyu/5449.html',36.83855141235715, 136.754046626765],
+  ['宝湯', '1/3 無料開放 13:00 - 23:00 \nhttps://www.hodatsushimizu.jp/kinkyu/5449.html',36.84319145785191, 136.75952894731546],
 ];
 
 const formatted: Tree[] = sentou.map(([name, text, lat, lng]) => ({
