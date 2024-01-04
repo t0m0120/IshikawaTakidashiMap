@@ -41,6 +41,8 @@ const sentou: RawSentou[] = [
 const toyama: RawSentou[] = [
   ['ファミリー銭湯くさじま', '1/4 通常営業\nhttps://www.instagram.com/fami_sen_kusajima',36.74643101737014, 137.21100053799086],
   ['越乃庭', '1/4~ 朝風呂 5:30-8:00 10:00 - 19:00\nhttps://twitter.com/koshinoniwa',36.80677250627114, 137.05081696407305],
+  ['天然温泉 海王', '1/3~ 営業再開中\nhttps://www.instagram.com/tennenonsenkaiou',36.753283699395055, 137.08248603754797],
+  ['民宿あおまさ', '1/4~ 温泉/食堂 無料提供\nhttps://twitter.com/chunbi_mu/status/1742543488221172060',36.844881114128974, 136.99738190003626],
 ]
 const mergedArray: RawSentou[] = [...sentou, ...toyama];
 
