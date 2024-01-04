@@ -50,7 +50,8 @@ const toyama: RawSentou[] = [
   ['スパ・アルプス', '1/1~ 食堂のみ\nhttps://twitter.com/spaalps',36.67682788586738, 137.2377213644148],
   ['荏原鉱泉', '1/3~ 15:00~ 開店\nhttps://twitter.com/tateyamakosen',36.696889846917436, 137.26572701778036],
   ['高原鉱泉', '1/2~ 14:00~ 開店\nhttps://twitter.com/takaharakousen',36.673725194939635, 137.24184216441725],
-  ['川城鉱泉', '1/2~ 14:00~19:00 \nhttps://twitter.com/sento_kawashiro',36.673725194939635, 137.24184216441725],
+  ['川城鉱泉', '1/2~ 14:00~19:00 \nhttps://twitter.com/sento_kawashiro',36.809946430969475, 137.3961160413228],
+  ['陽だまりの湯', '1/3~ 10:00~ 通常営業 \nhttps://twitter.com/hidamari_sauna',36.76469507324275, 137.0309991353209],
 ]
 const mergedArray: RawSentou[] = [...sentou, ...toyama];
 
