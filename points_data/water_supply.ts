@@ -37,6 +37,11 @@ const water_supply: RawSentou[] = [
   ['内灘中学校 正面玄関', '1/3 午前7時から午後8時 給水車\nhttps://www.town.uchinada.lg.jp/soshiki/soumu/15134.html', 36.64557857538397, 136.6441918067455],
   ['白帆台小学校 体育館前', '1/3 午前7時から午後8時 給水車\nhttps://www.town.uchinada.lg.jp/soshiki/soumu/15134.html', 36.674026914477075, 136.65726855139073],
   ['西荒屋公民館', '1/3 午後3時~無くなるまで 給水車\nhttps://www.town.uchinada.lg.jp/soshiki/soumu/15134.html', 36.684683784672735, 136.6725578883636],
+  ['七尾市立中島小学校', '1/4 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',37.121722300000016, 136.84271456509103],
+  ['田鶴浜体育館', '1/4 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',37.06006223972143, 136.89276228841717],
+  ['七尾城登山口駐車場', '1/4 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',37.02491115419428, 136.97456733157196],
+  ['南大呑地区コミュニティセンター', '1/4 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',36.983009955946834, 137.0492335036926],
+
 ]; 
 
 const formatted: Tree[] = water_supply.map(([name, text, lat, lng]) => ({
