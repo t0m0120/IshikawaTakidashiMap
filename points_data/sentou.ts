@@ -48,6 +48,9 @@ const toyama: RawSentou[] = [
   ['FUROBAKKA', '1/2~ 通常営業10:00 ～ 23:00 (最終受付22:00)\nhttps://twitter.com/FUROBAKKA',36.878520117898226, 137.426570528835],
   ['太閤山温泉 太閤の湯', '1/2~ 通常営業(10:00-00:00（最終受付 23:00)\nhttps://twitter.com/taikounoyu',36.713418498149906, 137.09414895764814],
   ['スパ・アルプス', '1/1~ 食堂のみ\nhttps://twitter.com/spaalps',36.67682788586738, 137.2377213644148],
+  ['荏原鉱泉', '1/3~ 15:00~ 開店\nhttps://twitter.com/tateyamakosen',36.696889846917436, 137.26572701778036],
+  ['高原鉱泉', '1/2~ 14:00~ 開店\nhttps://twitter.com/takaharakousen',36.673725194939635, 137.24184216441725],
+  ['川城鉱泉', '1/2~ 14:00~19:00 \nhttps://twitter.com/sento_kawashiro',36.673725194939635, 137.24184216441725],
 ]
 const mergedArray: RawSentou[] = [...sentou, ...toyama];
 
