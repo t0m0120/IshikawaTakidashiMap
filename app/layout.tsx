@@ -17,6 +17,33 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
+    <section className="text-gray-600 body-font">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-wrap w-full mb-20">
+          <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+              北陸炊き出しマップ
+            </h1>
+            <div className="h-1 w-20 bg-indigo-500 rounded"></div>
+          </div>
+          <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+            <p>
+              このページは、SNSなどをもとに、営業中の施設などをMapで確認できるWebサイトです。
+            </p>
+            <p>
+              公式SNSなどの情報を元に管理人が更新していますが、必ずピンに掲載されている公式サイト/SNSなどで最新の情報を確認してから行動してください。<br/>
+              店舗では確認の電話が多く、電話対応のコストがかかっております。できるだけ自分で調べるようにしましょう。
+            </p>
+            <p>
+              不具合や掲載の依頼などがあれば、管理人に
+              <a href="https://twitter.com/t0m0120">こちらから</a>ご連絡ください。
+            </p>
+          </p>
+        </div>
+        {children}
+      </div>
+    </section>
+    /*
     <html lang="en">
       <body className={inter.className} style={{ padding: 20 }}>
         <Link href="/">
@@ -36,5 +63,6 @@ export default function RootLayout({
         {children}
       </body>
     </html>
-  );
+    */
+    );
 }

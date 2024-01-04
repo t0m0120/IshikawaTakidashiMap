@@ -1,12 +1,11 @@
 "use client";
 import { SentouMapView } from "@/components/PointsMapView/index";
-import styles from "../../styles/page.module.css";
 
 import supply from "../../points_data/supplies";
 import Link from "@/node_modules/next/link";
 export default function Home() {
   return (
-    <main style={{margin: "10px",}}>
+    <main className="flex flex-col justify-between min-h-screen w-full m-10">
       <h2>
         支援物資拠点
       </h2>

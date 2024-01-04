@@ -1,11 +1,10 @@
 "use client";
 import { SentouMapView } from "@/components/PointsMapView/index";
-import styles from "../../styles/page.module.css";
 
 import water_supply from "../../points_data/water_supply";
 export default function Home() {
   return (
-    <main className={styles.main} style={{margin: "10px",}}>
+    <main className="flex flex-col justify-between min-h-screen w-full m-10">
       <h2>
         給水情報マップ
       </h2>
