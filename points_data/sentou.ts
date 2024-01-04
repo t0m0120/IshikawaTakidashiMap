@@ -52,6 +52,8 @@ const toyama: RawSentou[] = [
   ['高原鉱泉', '1/2~ 14:00~ 開店\nhttps://twitter.com/takaharakousen',36.673725194939635, 137.24184216441725],
   ['川城鉱泉', '1/2~ 14:00~19:00 \nhttps://twitter.com/sento_kawashiro',36.809946430969475, 137.3961160413228],
   ['陽だまりの湯', '1/3~ 10:00~ 通常営業 \nhttps://twitter.com/hidamari_sauna',36.76469507324275, 137.0309991353209],
+  ['ひかりランド(福野)', '1/2~ 15:00 ~ \nhttps://twitter.com/hikarirando',36.59238738699998, 136.93021678568246],
+  ['南砺市平ふれあい温泉センターゆ〜楽', '1/2~ 15:00 ~ \nhttps://twitter.com/Yuraku_Gokayama',36.45568264748623, 136.97712394232963],
 ]
 const mergedArray: RawSentou[] = [...sentou, ...toyama];
 
