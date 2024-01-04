@@ -43,6 +43,10 @@ const toyama: RawSentou[] = [
   ['越乃庭', '1/4~ 朝風呂 5:30-8:00 10:00 - 19:00\nhttps://twitter.com/koshinoniwa',36.80677250627114, 137.05081696407305],
   ['天然温泉 海王', '1/3~ 営業再開中\nhttps://www.instagram.com/tennenonsenkaiou',36.753283699395055, 137.08248603754797],
   ['民宿あおまさ', '1/4~ 温泉/食堂 無料提供\nhttps://twitter.com/chunbi_mu/status/1742543488221172060',36.844881114128974, 136.99738190003626],
+  ['満天の湯 魚津店', '1/2~ 通常営業(8:00-23:00（最終受付 22:30)\nhttps://www.instagram.com/mantennoyu_uozu/',36.80462509447471, 137.40383987322383],
+  ['FUROBAKKA', '1/2~ 通常営業10:00 ～ 23:00 (最終受付22:00)\nhttps://twitter.com/FUROBAKKA',36.878520117898226, 137.426570528835],
+  ['太閤山温泉 太閤の湯', '1/2~ 通常営業(10:00-00:00（最終受付 23:00)\nhttps://twitter.com/taikounoyu',36.713418498149906, 137.09414895764814],
+  ['スパ・アルプス', '1/1~ 食堂のみ\nhttps://twitter.com/spaalps',36.67682788586738, 137.2377213644148],
 ]
 const mergedArray: RawSentou[] = [...sentou, ...toyama];
 
