@@ -1,6 +1,6 @@
 "use client";
 import { SentouMapView } from "@/components/PointsMapView/index";
-import styles from "../page.module.css";
+import styles from "../../styles/page.module.css";
 
 import supply from "../../points_data/supplies";
 import Link from "@/node_modules/next/link";

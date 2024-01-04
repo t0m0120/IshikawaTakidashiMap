@@ -1,6 +1,6 @@
 "use client";
 import { SentouMapView } from "@/components/PointsMapView/index";
-import styles from "../page.module.css";
+import styles from "../../styles/page.module.css";
 
 import sentou from "../../points_data/sentou";
 export default function Home() {
