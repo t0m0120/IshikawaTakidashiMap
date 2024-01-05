@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <body className={inter.className} style={{ padding: 20 }}>
         <Link href="/">
           <h1>北陸炊き出しマップ</h1>
