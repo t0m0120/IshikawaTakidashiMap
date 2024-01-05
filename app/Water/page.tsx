@@ -16,7 +16,7 @@ export default function Home() {
             <div className="flex flex-col mb-10 lg:items-start items-center">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
-                  {/*icon*/ }
+                  {/*アイコン画像*/ }
                 </svg>
               </div>
               <div className="flex-grow">
