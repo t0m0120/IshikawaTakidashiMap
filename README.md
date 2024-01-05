@@ -17,6 +17,10 @@
 
 git clone後に、.env.localを作成し、GoogleMapのAPIKey MapIDを打ち込む。
 
+```sh
+cp .env.example .env.local
+```
+
 ```.env.local 
 NEXT_PUBLIC_GOOGLE_MAPS_API_KEY="1234"
 NEXT_PUBLIC_MAP_ID="abcd"
