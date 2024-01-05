@@ -13,6 +13,9 @@ export default function Home() {
         <li>
           <Link href="/Sentou">銭湯マップ</Link>
         </li>
+        <li>
+          <Link href="/Hospital">医療機関マップ</Link>
+        </li>
       </ul>
     </main>
   );
