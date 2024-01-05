@@ -6,9 +6,14 @@ import hospital from "../../points_data/hospital";
 export default function Home() {
     return (
         <main className={styles.main}>
-            <h3 style={{ margin: "10px", textAlign: "left" }}>
-                営業している医療機関マップ
-            </h3>
+            <div style={{ margin: "10px", textAlign: "left" }}>
+                <h3>
+                    営業している医療機関マップ
+                </h3>
+                <p>
+                    最新の情報は<a href="https://www.hokkoku.co.jp/articles/-/1279689">こちら</a>をご確認ください。<br />
+                </p>
+            </div>
             <SentouMapView data={hospital} />
         </main>
     );
