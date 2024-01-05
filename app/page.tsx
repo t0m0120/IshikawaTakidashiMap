@@ -7,7 +7,6 @@ import SentouImage from "../public/images/sentou.png"
 export default function Home() {
   return (
     <div className="flex flex-wrap -m-4">
-      {}
       {[
         { src: WaterImage, 
           title: '給水マップ', 

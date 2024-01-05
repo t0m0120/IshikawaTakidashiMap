@@ -3,7 +3,6 @@ import { SentouMapView } from "@/components/PointsMapView/index";
 import Image from "next/image";
 import WaterIcon from "../../public/images/water_icon.png"
 
-
 import water_supply from "../../points_data/water_supply";
 export default function Home() {
   return (
