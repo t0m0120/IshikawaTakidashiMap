@@ -3,6 +3,7 @@ import Image from "next/image";
 import WaterImage from "../public/images/water.png"
 import SuppliesImage from "../public/images/supplies.png"
 import SentouImage from "../public/images/sentou.png"
+import HospitalImage from "../public/images/hospital.png"
 
 export default function Home() {
   return (
@@ -24,6 +25,11 @@ export default function Home() {
           subtitle: 'SENTOU', 
           description: 'こちら',
           url: '/Sentou'},
+        { src: HospitalImage, 
+          title: '医療機関', 
+          subtitle: 'HOSPITAL', 
+          description: 'こちら',
+          url: '/Hospital'}
       ].map((item, index) => (
         <div key={index} className="xl:w-1/4 md:w-1/2 p-4">
           <div className="bg-gray-100 p-6 rounded-lg">

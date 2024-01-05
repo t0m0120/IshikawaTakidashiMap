@@ -27,6 +27,11 @@ export const Header = () => {
 							銭湯
 						</div>
           </Link>
+          <Link href="/Hospital">
+            <div className="mr-5 hover:text-gray-900">
+							医療
+						</div>
+          </Link>
         </nav>
       </div>
     </header>
