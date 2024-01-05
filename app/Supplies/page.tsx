@@ -1,5 +1,7 @@
 "use client";
 import { SentouMapView } from "@/components/PointsMapView/index";
+import Image from "next/image";
+import SuppliesIcon from "../../public/images/supplies_icon.png"
 
 import supply from "../../points_data/supplies";
 import Link from "@/node_modules/next/link";
@@ -13,10 +15,8 @@ export default function Home() {
           </div>
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
             <div className="flex flex-col mb-10 lg:items-start items-center">
-              <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
-                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
-                  {/*アイコン画像*/ }
-                </svg>
+              <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 p-2">
+                <Image src={SuppliesIcon} alt="給水アイコン"></Image>
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
