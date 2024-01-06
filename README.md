@@ -15,7 +15,11 @@
 
 ## 開発方法について
 
-git clone後に、.env.localを作成し、GoogleMapのAPIKey MapIDを打ち込む。
+git clone後に、以下コマンドで.env.localを作成し、GoogleMapのAPIKey MapIDを打ち込む。
+
+```sh
+cp .env.example .env.local
+```
 
 ```.env.local 
 NEXT_PUBLIC_GOOGLE_MAPS_API_KEY="1234"
