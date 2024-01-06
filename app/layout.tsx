@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 const siteName = "北陸炊き出しMap";
 const description =
   "令和6年能登半島地震対策として立ち上げた地図です。北陸の給水所や銭湯などの情報を地図上で一気に確認できます。";
-const url = "https://ishikawatakidashimap.pages.dev/Sentou"; // 本番URL
+const url = "https://ishikawatakidashimap.pages.dev/"; // 本番URL
 
 export const metadata: Metadata = {
   title: siteName,
