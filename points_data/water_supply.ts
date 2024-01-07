@@ -53,11 +53,12 @@ const water_supply: RawSentou[] = [
   ['西荒屋小学校', '1/3 午後3時~無くなるまで 給水車\nhttps://www.town.uchinada.lg.jp/soshiki/soumu/15134.html', 36.684683784672735, 136.6725578883636],
   ['西荒屋公民館', '1/3 午後3時~無くなるまで 給水車\nhttps://www.town.uchinada.lg.jp/soshiki/soumu/15134.html', 36.684683784672735, 136.6725578883636],
   
-  ['七尾市立中島小学校', '1/4 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',37.121722300000016, 136.84271456509103],
-  ['田鶴浜体育館', '1/4 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',37.06006223972143, 136.89276228841717],
-  ['七尾城登山口駐車場', '1/4 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',37.02491115419428, 136.97456733157196],
-  ['南大呑地区コミュニティセンター', '1/4 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',36.983009955946834, 137.0492335036926],
-  ['七尾東部中学校', '1/4 14~18:00 \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_9.html',37.02781690325878, 136.96924369155698],
+  ['七尾市立中島小学校', '1/7 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',37.121722300000016, 136.84271456509103],
+  ['田鶴浜体育館', '1/7 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',37.06006223972143, 136.89276228841717],
+  ['七尾城登山口駐車場', '1/7 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',37.02491115419428, 136.97456733157196],
+  ['南大呑地区コミュニティセンター', '1/7 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',36.983009955946834, 137.0492335036926],
+  ['旧能登島市民センター跡地', '1/7 9:30~ \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_3.html',36.983009955946834, 137.0492335036926],
+  ['七尾東部中学校', '1/7 14~18:00 \nhttps://www.city.nanao.lg.jp/bosai/mail/20240104_9.html',37.02781690325878, 136.96924369155698],
 ]; 
 
 const formatted: Tree[] = water_supply.map(([name, text, lat, lng]) => ({
