@@ -57,7 +57,7 @@ const toyama: RawSentou[] = [
   ['サウナタロトヤマ', '1/2~ 通常営業 \nhttps://twitter.com/SaunaTaloToyama',36.7255959992301, 137.22840841362822],
   ['桜ヶ池クアガーデン', '1/2~ 通常営業 日帰り温泉 6:00～22:00(受付21:30まで)\nhttps://sakuragaike.co.jp/onsen/',36.499895744725876, 136.8719213160595],
 ]
-const mergedArray: RawSentou[] = [...sentou, ...toyama];
+const mergedArray: RawSentou[] = [...sentou];
 
 const formatted: Tree[] = mergedArray.map(([name, text, lat, lng]) => ({
   name,
