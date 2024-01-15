@@ -39,7 +39,6 @@ export default function RootLayout({
           ご利用ありがとうございました。時間をおいてページを停止します。(2024/1/15)
           もしなにかございましたら、<a href="https://twitter.com/t0m0120">こちらから</a>ご連絡ください。
         </p>
-        </p>
       </body>
     </html>
   );
