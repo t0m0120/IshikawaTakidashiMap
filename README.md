@@ -1,5 +1,9 @@
 ## このリポジトリについて
 
+
+> [!WARNING]
+> [Yahoo災害マップ](https://weather-report.yahoo.co.jp/map/?lat=36.8&lon=137.1&z=7&popup=on&dosha=on&flood=on&hazard=off&evac=on&list_view=off&p_all=on&p_report_type=flood_disaster)が公開されたため、このプロジェクトはアーカイブとします。
+
 このNext.jsプロジェクトは、令和6年能登半島地震で被災した方への支援プロジェクトです。  
 給水拠点や、温浴施設の開放など、困っている人が助かる情報を即座に出せるサイトを目指して制作しています。
 
