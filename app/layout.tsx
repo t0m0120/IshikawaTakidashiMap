@@ -34,18 +34,12 @@ export default function RootLayout({
           <h1>北陸炊き出しマップ</h1>
         </Link>
         <p>
-          このページは、SNSなどをもとに、営業中の施設などをMapで確認できるWebサイトです。
+          Yahooから<Link href="https://weather-report.yahoo.co.jp/map/?lat=36.8&lon=137.1&z=7&popup=on&dosha=on&flood=on&hazard=off&evac=on&list_view=off&p_all=on&p_report_type=flood_disaster">Yahoo災害マップ</Link>が公開されました。<br/>
+          支援物資/入浴施設/通行止めなど災害に関する詳細な情報が公開されたので、石川炊き出しマップの公開を停止します。
+          ご利用ありがとうございました。時間をおいてページを停止します。(2024/1/15)
+          もしなにかございましたら、<a href="https://twitter.com/t0m0120">こちらから</a>ご連絡ください。
         </p>
-        <p>
-          公式SNSなどの情報を元に管理人が更新していますが、必ずピンに掲載されている公式サイト/SNSなどで最新の情報を確認してから行動してください。
-          <br />
-          店舗では確認の電話が多く、電話対応のコストがかかっております。できるだけ自分で調べるようにしましょう。
         </p>
-        <p>
-          不具合や掲載の依頼などがあれば、管理人に
-          <a href="https://twitter.com/t0m0120">こちらから</a>ご連絡ください。
-        </p>
-        {children}
       </body>
     </html>
   );
